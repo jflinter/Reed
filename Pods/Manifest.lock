@@ -1,0 +1,13 @@
+PODS:
+  - Dwifft (0.2)
+  - Firebase (2.5.0)
+
+DEPENDENCIES:
+  - Dwifft
+  - Firebase
+
+SPEC CHECKSUMS:
+  Dwifft: 34b83e721ced31ab8f780031eaf0ef96d541ad0b
+  Firebase: 744617c0733b45198f9486ebd5cac64ec2d10d79
+
+COCOAPODS: 0.39.0
