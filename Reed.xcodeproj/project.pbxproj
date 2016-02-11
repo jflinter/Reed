@@ -20,14 +20,12 @@
 		047F7F5A1C2D52220042C0FD /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C704B81C2C7A2200439FAA /* Story.swift */; };
 		047F7F5B1C2D52620042C0FD /* ReedCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047F7F491C2D50DF0042C0FD /* ReedCore.framework */; };
 		047F7F5D1C2D543B0042C0FD /* UserSelectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F7F5C1C2D543B0042C0FD /* UserSelectionTableViewController.swift */; };
-		047F7F5F1C2D605E0042C0FD /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047F7F5E1C2D605E0042C0FD /* Pods.framework */; };
-		047F7F611C2D60670042C0FD /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047F7F601C2D60670042C0FD /* Alamofire.framework */; };
-		047F7F631C2D60700042C0FD /* Ono.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047F7F621C2D60700042C0FD /* Ono.framework */; };
 		04C704981C2C6CD600439FAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C704971C2C6CD600439FAA /* AppDelegate.swift */; };
 		04C7049F1C2C6CD600439FAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C7049D1C2C6CD600439FAA /* Main.storyboard */; };
 		04C704A11C2C6CD600439FAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C704A01C2C6CD600439FAA /* Assets.xcassets */; };
 		04C704A41C2C6CD600439FAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C704A21C2C6CD600439FAA /* LaunchScreen.storyboard */; };
 		04C704AC1C2C731B00439FAA /* StoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C704AB1C2C731B00439FAA /* StoryTableViewController.swift */; };
+		04DDCFEB1C6C450700E7DAD0 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DDCFEA1C6C450700E7DAD0 /* Pods.framework */; };
 		7EF0B18D8F631BAEC2ADCFDB /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A25A4AA3650A9122D7C4C6E4 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -83,9 +81,6 @@
 		047F7F4B1C2D50DF0042C0FD /* ReedCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReedCore.h; sourceTree = "<group>"; };
 		047F7F4D1C2D50DF0042C0FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		047F7F5C1C2D543B0042C0FD /* UserSelectionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSelectionTableViewController.swift; sourceTree = "<group>"; };
-		047F7F5E1C2D605E0042C0FD /* Pods.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods.framework; path = "Pods/../build/Debug-iphoneos/Pods.framework"; sourceTree = "<group>"; };
-		047F7F601C2D60670042C0FD /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
-		047F7F621C2D60700042C0FD /* Ono.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ono.framework; path = "Pods/../build/Debug-iphoneos/Ono.framework"; sourceTree = "<group>"; };
 		04C704941C2C6CD600439FAA /* Reed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C704971C2C6CD600439FAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04C7049E1C2C6CD600439FAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -97,6 +92,7 @@
 		04C704BA1C2C7BB600439FAA /* FirebaseStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirebaseStore.swift; path = ../Reed/FirebaseStore.swift; sourceTree = "<group>"; };
 		04C704BC1C2C7C5300439FAA /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../Reed/User.swift; sourceTree = "<group>"; };
 		04C704C11C2CD48100439FAA /* String+Reed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Reed.swift"; path = "../Reed/String+Reed.swift"; sourceTree = "<group>"; };
+		04DDCFEA1C6C450700E7DAD0 /* Pods.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods.framework; path = "Pods/../build/Debug-iphoneos/Pods.framework"; sourceTree = "<group>"; };
 		83ABBC40A38E6A76CD0D5CFF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		85CD752A40332B1FE668BC6F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A25A4AA3650A9122D7C4C6E4 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,7 +103,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				047F7F5F1C2D605E0042C0FD /* Pods.framework in Frameworks */,
 				047F7F5B1C2D52620042C0FD /* ReedCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -116,8 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				047F7F631C2D60700042C0FD /* Ono.framework in Frameworks */,
-				047F7F611C2D60670042C0FD /* Alamofire.framework in Frameworks */,
+				04DDCFEB1C6C450700E7DAD0 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,9 +199,7 @@
 		F72DE0EBF9A01254F158CED9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				047F7F621C2D60700042C0FD /* Ono.framework */,
-				047F7F601C2D60670042C0FD /* Alamofire.framework */,
-				047F7F5E1C2D605E0042C0FD /* Pods.framework */,
+				04DDCFEA1C6C450700E7DAD0 /* Pods.framework */,
 				A25A4AA3650A9122D7C4C6E4 /* Pods.framework */,
 			);
 			name = Frameworks;
@@ -298,9 +290,11 @@
 				TargetAttributes = {
 					047F7F331C2D4AD60042C0FD = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4QS5C2WVW4;
 					};
 					047F7F481C2D50DF0042C0FD = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4QS5C2WVW4;
 					};
 					04C704931C2C6CD600439FAA = {
 						CreatedOnToolsVersion = 7.2;
@@ -485,6 +479,8 @@
 		047F7F401C2D4AD60042C0FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
@@ -493,6 +489,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jflinter.Reed.ReedSharing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -500,6 +497,8 @@
 		047F7F411C2D4AD60042C0FD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
@@ -508,6 +507,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jflinter.Reed.ReedSharing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -516,6 +516,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -541,6 +542,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;

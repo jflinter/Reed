@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'A6DB45767A761BC97B1EBD54'
+               BlueprintIdentifier = '4F44DE04B096FB2815572AAD'
                BlueprintName = 'Dwifft'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Dwifft.framework'>
